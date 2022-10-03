@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "918496625790",
+    "project_id": "sosyalmediataslak",
+    "storage_bucket": "sosyalmediataslak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918496625790:android:702ae1bcc79f23620ec42f",
+        "android_client_info": {
+          "package_name": "com.yildirimtechnologies.basitsosyalmedyaplatformtaslagi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918496625790-u25aegvtnq1kgj6qeatlvn3ooalo7mvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgofWsf8zIMZixQMkwAAIvou9pq65E5SE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918496625790-u25aegvtnq1kgj6qeatlvn3ooalo7mvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

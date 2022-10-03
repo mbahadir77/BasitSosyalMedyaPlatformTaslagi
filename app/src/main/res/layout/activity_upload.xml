@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity">
+
+    <EditText
+        android:id="@+id/CommetnText"
+        android:layout_width="397dp"
+        android:layout_height="91dp"
+        android:layout_marginBottom="358dp"
+        android:ems="10"
+        android:hint="Bi şeyler Yazın ... (Görselinizin altında gözükecektir.)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="206dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="60dp"
+        android:onClick="uploadbutton"
+        android:text="yükle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CommetnText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="204dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="66dp"
+        android:onClick="selectimage"
+        app:layout_constraintBottom_toTopOf="@+id/CommetnText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/upload" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
